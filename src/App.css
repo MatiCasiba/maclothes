@@ -1,0 +1,9 @@
+/*google font import*/
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*taliwnd csss import*/
+@import "tailwindcss";
+
+body {
+    font-family: "Volkhov", serif;
+    font-style: normal;
+}
