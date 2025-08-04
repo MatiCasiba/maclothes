@@ -1,3 +1,4 @@
+import Banner from "../../components/banner/Banner"
 import HomeNavbar from "../../components/homeNavbar/HomeNavbar"
 
 const Home = () => {
@@ -5,6 +6,12 @@ const Home = () => {
     <div className="">
         {/* home page navbar */}
         <HomeNavbar />
+
+        {/* banner component */}
+        <div>
+            <Banner />
+        </div>
+
     </div>
   )
 }
