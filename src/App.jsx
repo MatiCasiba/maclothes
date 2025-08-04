@@ -1,7 +1,8 @@
 import './App.css'
-import { BrowserRouter, Route } from 'react-router'
+import { BrowserRouter, Route, Routes } from 'react-router'
 import Footer from './components/footer/Footer'
 import Home from './pages/home/Home'
+
 
 function App() {
 

@@ -1,8 +1,10 @@
+import HomeNavbar from "../../components/homeNavbar/HomeNavbar"
 
 const Home = () => {
   return (
-    <div>
-        Home page
+    <div className="">
+        {/* home page navbar */}
+        <HomeNavbar />
     </div>
   )
 }
