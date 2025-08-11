@@ -2,7 +2,7 @@ import React from 'react'
 
 const Brand = () => {
     return (
-        <divc className="w-full min-h-[200px] bg-white pt-5">
+        <div className="w-full min-h-[200px] bg-white pt-5">
             <div className='lg:container mx-auto'>
                 <div className=" w-full min-h-[200] flex items-center justify-between gap-8">
                     {/* brand wrapper */}
@@ -23,7 +23,7 @@ const Brand = () => {
                     </div>
                 </div>
             </div>
-        </divc>
+        </div>
     )
 }
 
