@@ -1,5 +1,6 @@
 import Banner from "../../components/banner/Banner"
 import Brand from "../../components/brand/Brand"
+import Deals from "../../components/deals/Deals"
 import HomeNavbar from "../../components/homeNavbar/HomeNavbar"
 
 const Home = () => {
@@ -16,6 +17,11 @@ const Home = () => {
         {/* brand component */}
         <div>
             <Brand />
+        </div>
+
+        {/* deals component */}
+        <div>
+          <Deals />
         </div>
 
     </div>
