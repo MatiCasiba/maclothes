@@ -1,10 +1,11 @@
 import { Link } from "react-router"
+import DealsSlider from "../delasSlider/DealsSlider"
 
 const Deals = () => {
   return (
     <div className="w-full min-h-[782px] bg-white mt-[100px] py-10">
         <div className="lg:container mx-auto">
-            <div className="flex items-center justify-between gap-8">
+            <div className="flex justify-between gap-8">
 
                 {/* deals */}
                 <div className="delas_wrapper">
@@ -43,6 +44,8 @@ const Deals = () => {
                 </div>
 
                 {/* slider */}
+                <DealsSlider />
+
             </div>
         </div>
     </div>
