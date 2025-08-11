@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="w-full pt-[90px]">
        <div className="lg:container mx-auto">
             <div className="flex items-center justify-between gap-6 min-h-[756px] h-full">
-                <div className="max-w-1/3 w-full min-h-[756px] h-full bg-[#e8e8e4] rounded-lg flex items-end justify-center">
+                <div className="max-w-1/3 w-full min-h-[1075px] h-full bg-[#e8e8e4] rounded-lg flex items-end justify-center">
                     <img src="/banner/banner-3.png" alt="banner image" />
                 </div> {/* left side */}
 
@@ -20,12 +20,12 @@ const Banner = () => {
                         <Link to={''} className="text-white font-poppins font-medium px-6 py-2.5 bg-black rounded-lg inline-block text-xl uppercase mb-8">shop now</Link>
                     </div>
 
-                    <div className="min-h-[150px] h-full w-full bg-[#fcd5ce] rounded-lg">
-                        <img className="w-full object-cover" src="/banner/banner-peoples-3.png" alt="" />
+                    <div className="min-h-[150px] h-full w-full">
+                        <img className="w-full object-cover rounded-lg" src="/banner/banner-7.avif" alt="" />
                     </div>
                 </div>
 
-                <div className="max-w-1/3 w-full min-h-[756px] h-full bg-[#ffe5d9] rounded-lg flex items-end justify-center">
+                <div className="max-w-1/3 w-full min-h-[1075px] h-full bg-[#ffe5d9] rounded-lg flex items-end justify-center">
                     <img src="/banner/banner-6.png" alt="banner image" />
                 </div> {/* right side */}
             </div>
