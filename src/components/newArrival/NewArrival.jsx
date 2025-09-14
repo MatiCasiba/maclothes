@@ -110,14 +110,18 @@ const NewArrival = () => {
                     }
                 </div>
 
-                <div className="grid grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                     {
                         newArrivalProducts.map((product)=> (
-                            <div key={product.id} className="bg-white shadow-lg p-5 rounded-md">
-                                <div className="w-full max-h-[244px] h-full mb-2.5">
-                                    <img className="w-full h-full object-cover rounded-md" src={product.image} alt={product.name} />
+                            <div key={product.id} className="bg-white shadow-lg p-5 rounded-md flex flex-col h-full">
+                                <div className="w-full flex-shrink-0 flex justify-center items-center mb-2.5">
+                                    <img 
+                                        className="w-full max-h-[320px] object-contain rounded-md"
+                                        src={product.image}
+                                        alt={product.name}
+                                    />
                                 </div>
-                                <div>
+                                <div className="flex flex-col flex-1 justify-between">
                                     <div className="flex items-center justify-between">
                                         <div>
                                             <h4 className="text-xl text-[#484848] font-poppins font-medium capitalize mb-2">{product.name}</h4>
