@@ -2,6 +2,7 @@ import Banner from "../../components/banner/Banner"
 import Brand from "../../components/brand/Brand"
 import Deals from "../../components/deals/Deals"
 import HomeNavbar from "../../components/homeNavbar/HomeNavbar"
+import NewArrival from "../../components/newArrival/NewArrival"
 
 const Home = () => {
   return (
@@ -22,6 +23,10 @@ const Home = () => {
         {/* deals component */}
         <div>
           <Deals />
+        </div>
+
+        <div>
+          <NewArrival />
         </div>
 
     </div>
