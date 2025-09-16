@@ -2,6 +2,7 @@ import Banner from "../../components/banner/Banner"
 import Blinder from "../../components/blinder/Blinder"
 import Brand from "../../components/brand/Brand"
 import Deals from "../../components/deals/Deals"
+import FollowUs from "../../components/followUs/FollowUs"
 import HomeNavbar from "../../components/homeNavbar/HomeNavbar"
 import NewArrival from "../../components/newArrival/NewArrival"
 
@@ -33,6 +34,11 @@ const Home = () => {
         {/* blinder component */}
         <div>
           <Blinder />
+        </div>
+
+        {/* follow us component */}
+        <div>
+          <FollowUs />
         </div>
 
     </div>
