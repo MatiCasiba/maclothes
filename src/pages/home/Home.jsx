@@ -5,6 +5,7 @@ import Deals from "../../components/deals/Deals"
 import FollowUs from "../../components/followUs/FollowUs"
 import HomeNavbar from "../../components/homeNavbar/HomeNavbar"
 import NewArrival from "../../components/newArrival/NewArrival"
+import Testimonial from "../../components/testimonial/Testimonial"
 
 const Home = () => {
   return (
@@ -39,6 +40,11 @@ const Home = () => {
         {/* follow us component */}
         <div>
           <FollowUs />
+        </div>
+
+        {/* testimonial component */}
+        <div>
+          <Testimonial />
         </div>
 
     </div>
