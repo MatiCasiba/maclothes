@@ -41,6 +41,7 @@ const Testimonial = () => {
             spaceBetween: 40,
         }
     }
+    
     return (
         <div className='w-full min-h-[840px] h-full bg-[#fafafa] overflow-hidden pt-[100px] pb-[58px]'>
             <div className='lg:container mx-auto'>
@@ -61,116 +62,116 @@ const Testimonial = () => {
                     >
                         <SwiperSlide>
                             <div className='flex items-center justify-between p-8 bg-white shadow-2xl min-w-[864px] w-full min-h-[400px] h-full rounded-lg gap-10'>
-                                <div className=' relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
+                                <div className='relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
                                     <img className='max-w-[242px] w-full min-h-[242px] h-full object-cover relative z-10' src="/customers/customer-1.avif" alt="customer 1" />
                                 </div>
-                            </div>
-                            <div className='flex flex-col gap-6'>
-                                <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
-                                <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
-                                    {
-                                        [...Array(5)]?.map((_, index) => (
-                                            <FaStar key={index} size={'1.5rem'} color='#fca120' />
-                                        ))
-                                    }
-                                </span>
-                                <h4 className='text-4xl text-[#484848] font-normal capitalize'>james k.</h4>
-                                <span className='text-base text-[#484848] font-poppins font-normal capitalize'>traveler</span>
+                                <div className='flex flex-col gap-6 flex-1'>
+                                    <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
+                                    <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
+                                        {
+                                            [...Array(5)]?.map((_, index) => (
+                                                <FaStar key={index} size={'1.5rem'} color='#fca120' />
+                                            ))
+                                        }
+                                    </span>
+                                    <h4 className='text-4xl text-[#484848] font-normal capitalize'>james k.</h4>
+                                    <span className='text-base text-[#484848] font-poppins font-normal capitalize'>traveler</span>
+                                </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='flex items-center justify-between p-8 bg-white shadow-2xl min-w-[864px] w-full min-h-[400px] h-full rounded-lg gap-10'>
-                                <div className=' relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
+                                <div className='relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
                                     <img className='max-w-[242px] w-full min-h-[242px] h-full object-cover relative z-10' src="/customers/customer-2.avif" alt="customer 2" />
                                 </div>
-                            </div>
-                            <div className='flex flex-col gap-6'>
-                                <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
-                                <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
-                                    {
-                                        [...Array(5)]?.map((_, index) => (
-                                            <FaStar key={index} size={'1.5rem'} color='#fca120' />
-                                        ))
-                                    }
-                                </span>
-                                <h4 className='text-4xl text-[#484848] font-normal capitalize'>john C.</h4>
-                                <span className='text-base text-[#484848] font-poppins font-normal capitalize'>surfer</span>
+                                <div className='flex flex-col gap-6 flex-1'>
+                                    <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
+                                    <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
+                                        {
+                                            [...Array(5)]?.map((_, index) => (
+                                                <FaStar key={index} size={'1.5rem'} color='#fca120' />
+                                            ))
+                                        }
+                                    </span>
+                                    <h4 className='text-4xl text-[#484848] font-normal capitalize'>john C.</h4>
+                                    <span className='text-base text-[#484848] font-poppins font-normal capitalize'>surfer</span>
+                                </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='flex items-center justify-between p-8 bg-white shadow-2xl min-w-[864px] w-full min-h-[400px] h-full rounded-lg gap-10'>
-                                <div className=' relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
+                                <div className='relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
                                     <img className='max-w-[242px] w-full min-h-[242px] h-full object-cover relative z-10' src="/customers/customer-3.avif" alt="customer 3" />
                                 </div>
-                            </div>
-                            <div className='flex flex-col gap-6'>
-                                <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
-                                <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
-                                    {
-                                        [...Array(5)]?.map((_, index) => (
-                                            <FaStar key={index} size={'1.5rem'} color='#fca120' />
-                                        ))
-                                    }
-                                </span>
-                                <h4 className='text-4xl text-[#484848] font-normal capitalize'>astrid J.</h4>
-                                <span className='text-base text-[#484848] font-poppins font-normal capitalize'>model</span>
+                                <div className='flex flex-col gap-6 flex-1'>
+                                    <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
+                                    <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
+                                        {
+                                            [...Array(5)]?.map((_, index) => (
+                                                <FaStar key={index} size={'1.5rem'} color='#fca120' />
+                                            ))
+                                        }
+                                    </span>
+                                    <h4 className='text-4xl text-[#484848] font-normal capitalize'>astrid J.</h4>
+                                    <span className='text-base text-[#484848] font-poppins font-normal capitalize'>model</span>
+                                </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='flex items-center justify-between p-8 bg-white shadow-2xl min-w-[864px] w-full min-h-[400px] h-full rounded-lg gap-10'>
-                                <div className=' relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
+                                <div className='relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
                                     <img className='max-w-[242px] w-full min-h-[242px] h-full object-cover relative z-10' src="/customers/customer-4.avif" alt="customer 4" />
                                 </div>
-                            </div>
-                            <div className='flex flex-col gap-6'>
-                                <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
-                                <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
-                                    {
-                                        [...Array(5)]?.map((_, index) => (
-                                            <FaStar key={index} size={'1.5rem'} color='#fca120' />
-                                        ))
-                                    }
-                                </span>
-                                <h4 className='text-4xl text-[#484848] font-normal capitalize'>Michael s.</h4>
-                                <span className='text-base text-[#484848] font-poppins font-normal capitalize'>software developer</span>
+                                <div className='flex flex-col gap-6 flex-1'>
+                                    <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
+                                    <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
+                                        {
+                                            [...Array(5)]?.map((_, index) => (
+                                                <FaStar key={index} size={'1.5rem'} color='#fca120' />
+                                            ))
+                                        }
+                                    </span>
+                                    <h4 className='text-4xl text-[#484848] font-normal capitalize'>Michael s.</h4>
+                                    <span className='text-base text-[#484848] font-poppins font-normal capitalize'>software developer</span>
+                                </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='flex items-center justify-between p-8 bg-white shadow-2xl min-w-[864px] w-full min-h-[400px] h-full rounded-lg gap-10'>
-                                <div className=' relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
+                                <div className='relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
                                     <img className='max-w-[242px] w-full min-h-[242px] h-full object-cover relative z-10' src="/customers/customer-5.avif" alt="customer 5" />
                                 </div>
-                            </div>
-                            <div className='flex flex-col gap-6'>
-                                <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
-                                <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
-                                    {
-                                        [...Array(5)]?.map((_, index) => (
-                                            <FaStar key={index} size={'1.5rem'} color='#fca120' />
-                                        ))
-                                    }
-                                </span>
-                                <h4 className='text-4xl text-[#484848] font-normal capitalize'>Jessica R.</h4>
-                                <span className='text-base text-[#484848] font-poppins font-normal capitalize'>administrator</span>
+                                <div className='flex flex-col gap-6 flex-1'>
+                                    <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
+                                    <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
+                                        {
+                                            [...Array(5)]?.map((_, index) => (
+                                                <FaStar key={index} size={'1.5rem'} color='#fca120' />
+                                            ))
+                                        }
+                                    </span>
+                                    <h4 className='text-4xl text-[#484848] font-normal capitalize'>Jessica R.</h4>
+                                    <span className='text-base text-[#484848] font-poppins font-normal capitalize'>administrator</span>
+                                </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='flex items-center justify-between p-8 bg-white shadow-2xl min-w-[864px] w-full min-h-[400px] h-full rounded-lg gap-10'>
-                                <div className=' relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
+                                <div className='relative max-w-[242px] w-full min-h-[242px] h-full testimonial-img'>
                                     <img className='max-w-[242px] w-full min-h-[242px] h-full object-cover relative z-10' src="/customers/customer-6.avif" alt="customer 6" />
                                 </div>
-                            </div>
-                            <div className='flex flex-col gap-6'>
-                                <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
-                                <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
-                                    {
-                                        [...Array(5)]?.map((_, index) => (
-                                            <FaStar key={index} size={'1.5rem'} color='#fca120' />
-                                        ))
-                                    }
-                                </span>
-                                <h4 className='text-4xl text-[#484848] font-normal capitalize'>Elizabeth T.</h4>
-                                <span className='text-base text-[#484848] font-poppins font-normal capitalize'>cashier</span>
+                                <div className='flex flex-col gap-6 flex-1'>
+                                    <p className='text-base text-black font-poppins font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere doloribus voluptate quos magnam voluptatibus, sed error adipisci nisi fuga.</p>
+                                    <span className='flex items-center gap-1.5 pb-5 border-b-[1px] border-[#484848] max-w-[230px] w-full'>
+                                        {
+                                            [...Array(5)]?.map((_, index) => (
+                                                <FaStar key={index} size={'1.5rem'} color='#fca120' />
+                                            ))
+                                        }
+                                    </span>
+                                    <h4 className='text-4xl text-[#484848] font-normal capitalize'>Elizabeth T.</h4>
+                                    <span className='text-base text-[#484848] font-poppins font-normal capitalize'>cashier</span>
+                                </div>
                             </div>
                         </SwiperSlide>
 
