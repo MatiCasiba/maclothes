@@ -1,12 +1,11 @@
-
 const Newsletter = () => {
   return (
     <div className="w-full bg-white pt-[150px] pb-[50px]">
         <div className="lg:container mx-auto">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between min-h-[747px]">
 
                 {/* left side wrapper */}
-                <div className="max-w-[355px] w-full min-h-[747px] h-full">
+                <div className="max-w-[355px] w-full">
                     <img className="w-full h-full object-cover" src="/newsletter/newsletter-1.webp" alt="newsletter image" />
                 </div>
 
@@ -25,7 +24,7 @@ const Newsletter = () => {
                 </div>
 
                 {/* right side wrapper */}
-                <div className="max-w-[355px] w-full min-h-[747px] h-full">
+                <div className="max-w-[355px] w-full">
                     <img className="w-full h-full object-cover" src="/newsletter/newsletter-2.webp" alt="newsletter image" />
                 </div>
             </div>
